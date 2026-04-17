@@ -1,0 +1,96 @@
+{
+  "Site": {
+    "name": "Campus Impact Hub MY",
+    "tagline": "Find scholarships, research, volunteering and competitions that actually move your campus life forward."
+  },
+  "Nav": {
+    "home": "Home",
+    "opportunities": "Opportunities",
+    "saved": "Saved",
+    "about": "About",
+    "admin": "Admin",
+    "signIn": "Sign in",
+    "signOutDemo": "Sign out demo",
+    "demoStudent": "Demo student",
+    "demoAdmin": "Demo admin"
+  },
+  "Common": {
+    "featured": "Featured",
+    "closingSoon": "Closing soon",
+    "upcoming": "Upcoming",
+    "later": "Later",
+    "browseAll": "Browse all opportunities",
+    "learnMore": "Learn more",
+    "save": "Save",
+    "saved": "Saved",
+    "unsave": "Remove",
+    "deadline": "Deadline",
+    "mode": "Mode",
+    "location": "Location",
+    "category": "Category",
+    "organization": "Organization",
+    "eligibility": "Eligibility",
+    "language": "Language",
+    "notAvailable": "Not available",
+    "demoMode": "Demo mode"
+  },
+  "Home": {
+    "eyebrow": "Malaysia-first student opportunity radar",
+    "title": "A sharper way for university students to discover work that matters.",
+    "description": "Campus Impact Hub MY helps students find scholarships, volunteering calls, research labs, competitions and internships from one focused dashboard.",
+    "primaryCta": "Explore the board",
+    "secondaryCta": "See how it works",
+    "featuredTitle": "Featured this week",
+    "featuredDescription": "Fresh opportunities curated for Malaysian university students with clear deadlines and impact areas.",
+    "categoryTitle": "Built around real student momentum",
+    "valueTitle": "Why students keep this open",
+    "valueOneTitle": "One board, not ten tabs",
+    "valueOneBody": "Track scholarships, competitions, research and social-impact programs in one calm interface.",
+    "valueTwoTitle": "Bilingual by design",
+    "valueTwoBody": "Use English or Bahasa Melayu without losing context, labels or detail pages.",
+    "valueThreeTitle": "Deadline-aware dashboard",
+    "valueThreeBody": "Save opportunities and instantly see what is urgent, upcoming or safe to revisit later."
+  },
+  "Opportunities": {
+    "title": "Opportunity board",
+    "description": "Filter by category, study mode, location and deadlines to find the right next move.",
+    "searchPlaceholder": "Search by title, keyword or organization",
+    "searchButton": "Apply filters",
+    "clearFilters": "Clear filters",
+    "noResults": "No opportunities matched those filters.",
+    "relatedTitle": "Related opportunities",
+    "visitSource": "Open external application page",
+    "filterTitle": "Tune the board"
+  },
+  "Saved": {
+    "title": "Saved opportunities",
+    "description": "Your shortlist is organized by urgency so it is easier to act before a deadline slips.",
+    "emptyTitle": "Nothing saved yet",
+    "emptyBody": "Start from the opportunity board and save the listings you want to revisit."
+  },
+  "About": {
+    "title": "About the project",
+    "description": "Campus Impact Hub MY is designed as a practical launchpad for university students who want more visibility into meaningful opportunities."
+  },
+  "Admin": {
+    "title": "Admin opportunity desk",
+    "description": "Create, edit, publish and archive opportunities without leaving the app.",
+    "newOpportunity": "Create a new opportunity",
+    "editOpportunity": "Edit opportunity",
+    "saveDraft": "Save changes",
+    "archive": "Archive",
+    "published": "Published",
+    "draft": "Draft",
+    "archived": "Archived",
+    "tableTitle": "Current opportunity inventory"
+  },
+  "Auth": {
+    "title": "Choose how to continue",
+    "description": "Use Clerk when keys are configured, or enter a local demo mode to test the student and admin flows.",
+    "clerkTitle": "Clerk authentication",
+    "demoTitle": "Local demo access",
+    "studentLabel": "Enter as demo student",
+    "adminLabel": "Enter as demo admin",
+    "signUp": "Create an account"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "Site": {
+    "name": "Campus Impact Hub MY",
+    "tagline": "Cari biasiswa, penyelidikan, sukarelawan dan pertandingan yang benar-benar membantu perjalanan kampus anda."
+  },
+  "Nav": {
+    "home": "Utama",
+    "opportunities": "Peluang",
+    "saved": "Disimpan",
+    "about": "Tentang",
+    "admin": "Admin",
+    "signIn": "Log masuk",
+    "signOutDemo": "Keluar demo",
+    "demoStudent": "Demo pelajar",
+    "demoAdmin": "Demo admin"
+  },
+  "Common": {
+    "featured": "Pilihan utama",
+    "closingSoon": "Tutup tidak lama lagi",
+    "upcoming": "Akan datang",
+    "later": "Kemudian",
+    "browseAll": "Lihat semua peluang",
+    "learnMore": "Lihat lanjut",
+    "save": "Simpan",
+    "saved": "Disimpan",
+    "unsave": "Buang",
+    "deadline": "Tarikh tutup",
+    "mode": "Mod",
+    "location": "Lokasi",
+    "category": "Kategori",
+    "organization": "Organisasi",
+    "eligibility": "Kelayakan",
+    "language": "Bahasa",
+    "notAvailable": "Tiada",
+    "demoMode": "Mod demo"
+  },
+  "Home": {
+    "eyebrow": "Radar peluang pelajar berfokus Malaysia",
+    "title": "Cara yang lebih tajam untuk pelajar universiti mencari peluang yang bermakna.",
+    "description": "Campus Impact Hub MY membantu pelajar mencari biasiswa, sukarelawan, makmal penyelidikan, pertandingan dan latihan industri dalam satu papan pemuka yang fokus.",
+    "primaryCta": "Teroka papan peluang",
+    "secondaryCta": "Lihat cara ia berfungsi",
+    "featuredTitle": "Pilihan minggu ini",
+    "featuredDescription": "Peluang baharu yang dikurasi untuk pelajar universiti Malaysia dengan tarikh tutup dan fokus impak yang jelas.",
+    "categoryTitle": "Dibina untuk momentum sebenar pelajar",
+    "valueTitle": "Kenapa pelajar akan sentiasa buka semula",
+    "valueOneTitle": "Satu papan, bukan sepuluh tab",
+    "valueOneBody": "Jejak biasiswa, pertandingan, penyelidikan dan program impak sosial dalam satu antara muka yang tenang.",
+    "valueTwoTitle": "Dwi bahasa sejak awal",
+    "valueTwoBody": "Gunakan Bahasa Melayu atau Inggeris tanpa kehilangan konteks, label atau butiran peluang.",
+    "valueThreeTitle": "Papan pemuka peka tarikh tutup",
+    "valueThreeBody": "Simpan peluang dan terus nampak mana yang mendesak, akan datang atau boleh disemak kemudian."
+  },
+  "Opportunities": {
+    "title": "Papan peluang",
+    "description": "Tapis mengikut kategori, mod, lokasi dan tarikh tutup untuk mencari langkah seterusnya yang tepat.",
+    "searchPlaceholder": "Cari ikut tajuk, kata kunci atau organisasi",
+    "searchButton": "Gunakan penapis",
+    "clearFilters": "Kosongkan penapis",
+    "noResults": "Tiada peluang yang sepadan dengan penapis itu.",
+    "relatedTitle": "Peluang berkaitan",
+    "visitSource": "Buka pautan permohonan luar",
+    "filterTitle": "Laraskan papan peluang"
+  },
+  "Saved": {
+    "title": "Peluang disimpan",
+    "description": "Senarai simpanan anda disusun mengikut tahap segera supaya lebih mudah untuk bertindak sebelum tarikh tutup terlepas.",
+    "emptyTitle": "Belum ada yang disimpan",
+    "emptyBody": "Mulakan dari papan peluang dan simpan tawaran yang anda mahu semak semula."
+  },
+  "About": {
+    "title": "Tentang projek",
+    "description": "Campus Impact Hub MY dibina sebagai landasan praktikal untuk pelajar universiti yang mahu lebih jelas tentang peluang yang bermakna."
+  },
+  "Admin": {
+    "title": "Meja peluang admin",
+    "description": "Cipta, kemas kini, terbit dan arkibkan peluang tanpa keluar dari aplikasi.",
+    "newOpportunity": "Cipta peluang baharu",
+    "editOpportunity": "Kemas kini peluang",
+    "saveDraft": "Simpan perubahan",
+    "archive": "Arkibkan",
+    "published": "Diterbitkan",
+    "draft": "Draf",
+    "archived": "Diarkibkan",
+    "tableTitle": "Inventori peluang semasa"
+  },
+  "Auth": {
+    "title": "Pilih cara untuk teruskan",
+    "description": "Gunakan Clerk apabila kunci telah disediakan, atau masuk ke mod demo tempatan untuk menguji aliran pelajar dan admin.",
+    "clerkTitle": "Pengesahan Clerk",
+    "demoTitle": "Akses demo tempatan",
+    "studentLabel": "Masuk sebagai demo pelajar",
+    "adminLabel": "Masuk sebagai demo admin",
+    "signUp": "Cipta akaun"
+  }
+}

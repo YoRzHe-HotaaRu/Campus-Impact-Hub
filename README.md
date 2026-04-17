@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Campus Impact Hub MY
 
-## Getting Started
+A bilingual Next.js platform for Malaysian university students to discover scholarships, research roles, volunteering programs, competitions and internships in one place.
 
-First, run the development server:
+## Stack
+
+- Next.js App Router + TypeScript
+- Tailwind CSS v4 + shadcn/ui primitives
+- `next-intl` locale routing for English and Bahasa Melayu
+- Clerk-ready authentication with a local demo-mode fallback
+- Neon Postgres + Drizzle schema and migration setup
+- Vitest for unit tests and Playwright for end-to-end tests
+
+## Core Routes
+
+- `/en` and `/ms` home pages
+- `/[locale]/opportunities`
+- `/[locale]/opportunities/[slug]`
+- `/[locale]/saved`
+- `/[locale]/about`
+- `/[locale]/admin/opportunities`
+- `/sign-in` and `/sign-up`
+
+## Local Setup
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Copy the environment template and add keys when available:
+
+```bash
+cp .env.example .env.local
+```
+
+3. Start the app:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If Clerk or Neon are not configured yet, the app still works in local demo mode through `/sign-in`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Database
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The Drizzle schema lives in `src/lib/db/schema.ts`.
 
-## Learn More
+Generate migrations:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run db:generate
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Apply migrations after adding a real `DATABASE_URL`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run db:migrate
+```
 
-## Deploy on Vercel
+## Tests
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Run unit tests:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm test
+```
+
+Run coverage:
+
+```bash
+npm run test:coverage
+```
+
+Run end-to-end tests:
+
+```bash
+npm run test:e2e
+```
+
+## Notes
+
+- The UI uses `next/font/google` with `Manrope` and `Space Grotesk`.
+- Production auth activates automatically when Clerk keys are present.
+- Without a database, saved/admin behavior uses a local in-memory demo store for development and testing.
