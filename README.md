@@ -2,6 +2,16 @@
 
 A bilingual Next.js platform for Malaysian university students to discover scholarships, research roles, volunteering programs, competitions and internships in one place.
 
+## Screenshots
+
+### Home page
+
+![Campus Impact Hub MY home page](./screenshot/homepage.png)
+
+### Opportunity board
+
+![Campus Impact Hub MY opportunities page](./screenshot/opportunities.png)
+
 ## Stack
 
 - Next.js App Router + TypeScript
@@ -81,6 +91,6 @@ npm run test:e2e
 
 ## Notes
 
-- The UI uses `next/font/google` with `Manrope` and `Space Grotesk`.
+- The UI uses `next/font/google` with `Newsreader` and `Public Sans`.
 - Production auth activates automatically when Clerk keys are present.
 - Without a database, saved/admin behavior uses a local in-memory demo store for development and testing.
